@@ -1,0 +1,98 @@
+[debug] [2024-11-27T06:38:11.012Z] ----------------------------------------------------------------------
+[debug] [2024-11-27T06:38:11.014Z] Command:       /root/.nvm/versions/node/v18.20.5/bin/node /root/.nvm/versions/node/v18.20.5/bin/firebase init
+[debug] [2024-11-27T06:38:11.014Z] CLI Version:   13.27.0
+[debug] [2024-11-27T06:38:11.017Z] Platform:      linux
+[debug] [2024-11-27T06:38:11.017Z] Node Version:  v18.20.5
+[debug] [2024-11-27T06:38:11.017Z] Time:          Wed Nov 27 2024 13:38:11 GMT+0700 (Western Indonesia Time)
+[debug] [2024-11-27T06:38:11.017Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-27T06:38:11.031Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-27T06:38:11.031Z] > authorizing via signed-in user (c282b4kx4039@bangkit.academy)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/d/punya caca/informatics/Semester 5/. Bangkit - Cloud Computing/Belajar Penerapan Machine Learning dengan Google Cloud/latihan
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-27T06:38:20.460Z] Checked if tokens are valid: true, expires at: 1732693049597
+[debug] [2024-11-27T06:38:20.461Z] Checked if tokens are valid: true, expires at: 1732693049597
+[debug] [2024-11-27T06:38:20.463Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2024-11-27T06:38:21.266Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2024-11-27T06:38:21.266Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2024-11-27T06:38:22.896Z] Checked if tokens are valid: true, expires at: 1732693049597
+[debug] [2024-11-27T06:38:22.896Z] Checked if tokens are valid: true, expires at: 1732693049597
+[debug] [2024-11-27T06:38:22.897Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase [none]
+[debug] [2024-11-27T06:38:24.063Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase 403
+[debug] [2024-11-27T06:38:24.064Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-27T06:38:24.064Z] Request to https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-27T06:38:24.207Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (/root/.nvm/versions/node/v18.20.5/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/root/.nvm/versions/node/v18.20.5/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2024-11-27T06:56:06.239Z] ----------------------------------------------------------------------
+[debug] [2024-11-27T06:56:06.240Z] Command:       /root/.nvm/versions/node/v18.20.5/bin/node /root/.nvm/versions/node/v18.20.5/bin/firebase init
+[debug] [2024-11-27T06:56:06.241Z] CLI Version:   13.27.0
+[debug] [2024-11-27T06:56:06.241Z] Platform:      linux
+[debug] [2024-11-27T06:56:06.241Z] Node Version:  v18.20.5
+[debug] [2024-11-27T06:56:06.241Z] Time:          Wed Nov 27 2024 13:56:06 GMT+0700 (Western Indonesia Time)
+[debug] [2024-11-27T06:56:06.241Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-27T06:56:06.254Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-27T06:56:06.255Z] > authorizing via signed-in user (c282b4kx4039@bangkit.academy)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/d/punya caca/informatics/Semester 5/. Bangkit - Cloud Computing/Belajar Penerapan Machine Learning dengan Google Cloud/latihan
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-27T06:56:11.993Z] Checked if tokens are valid: true, expires at: 1732693049597
+[debug] [2024-11-27T06:56:11.993Z] Checked if tokens are valid: true, expires at: 1732693049597
+[debug] [2024-11-27T06:56:11.994Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2024-11-27T06:56:13.075Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2024-11-27T06:56:13.075Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2024-11-27T06:56:14.496Z] Checked if tokens are valid: true, expires at: 1732693049597
+[debug] [2024-11-27T06:56:14.496Z] Checked if tokens are valid: true, expires at: 1732693049597
+[debug] [2024-11-27T06:56:14.496Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase [none]
+[debug] [2024-11-27T06:56:14.881Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase 403
+[debug] [2024-11-27T06:56:14.881Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-27T06:56:14.883Z] Request to https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-27T06:56:15.067Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/nifty-canyon-436703-r5:addFirebase had HTTP Error: 403, The caller does not have permission
+    at responseToError (/root/.nvm/versions/node/v18.20.5/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/root/.nvm/versions/node/v18.20.5/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
